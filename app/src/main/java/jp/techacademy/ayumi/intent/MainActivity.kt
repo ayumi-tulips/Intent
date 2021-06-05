@@ -13,11 +13,11 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        button.setOnClickListener(this)
+        button1.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
-        val intent = Intent(this, SecondActivity::class.java)
+        val intent = Intent(this, SecondActivity2::class.java)
         startActivity(intent)
     }
 }
